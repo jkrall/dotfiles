@@ -16,6 +16,7 @@ PATH="/opt/local/sbin:$PATH"
 PATH="~/bin:$PATH"
 export PATH=$PATH
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 fpath=(~/.zsh/functions $fpath)
 
