@@ -4,7 +4,11 @@ else
   if [ -e /Programming/$1 ]; then
     cd /Programming/$1;
   else
-    echo 'Project not found.';
+    if [ -e ~/$1 ]; then
+      cd ~/$1;
+    else
+      echo 'Project not found.';
+    fi;
   fi;
 fi;
 
