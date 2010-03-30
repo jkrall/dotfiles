@@ -20,9 +20,9 @@
 # Color codes are 'xy', where x=foreground y=background
 #
 LSCOLORS=''
-LSCOLORS=$LSCOLORS'dx'		# 1.   directory
+LSCOLORS=$LSCOLORS'Gx'		# 1.   directory
 LSCOLORS=$LSCOLORS'fx'		# 2.   symbolic link
-LSCOLORS=$LSCOLORS'ex'		# 3.   socket
+LSCOLORS=$LSCOLORS'dx'		# 3.   socket
 LSCOLORS=$LSCOLORS'ex'		# 4.   pipe
 LSCOLORS=$LSCOLORS'cx'		# 5.   executable
 LSCOLORS=$LSCOLORS'eg'		# 6.   block special
