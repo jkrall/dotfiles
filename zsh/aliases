@@ -30,3 +30,8 @@ alias lrt="ls -l"
 
 # commands starting with % for pasting from web
 alias %=' '
+
+
+alias sshtfs='ssh deployer@transfs.com'
+
+
