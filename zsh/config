@@ -5,16 +5,13 @@ else
 fi
 
 export EDITOR='mate -w'
-export PATH="~/bin:/usr/local/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
-# PATH="/usr/local/git/bin:$PATH"  -- already exists
+PATH="$HOME/bin:/usr/local/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
 PATH="/usr/local/mysql/bin:$PATH"
 PATH="/usr/local/mongodb/bin:$PATH"
 PATH="/usr/local/sbin:$PATH"
-# PATH="/usr/local/bin:$PATH"  -- already exists
 PATH="/usr/local/homebrew/bin:$PATH"
 PATH="/opt/local/bin:$PATH"
 PATH="/opt/local/sbin:$PATH"
-PATH="~/bin:$PATH"
 export PATH=$PATH
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 export JAVA_HOME=$(/usr/libexec/java_home)
