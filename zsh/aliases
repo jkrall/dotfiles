@@ -32,6 +32,6 @@ alias lrt="ls -l"
 alias %=' '
 
 
-alias sshtfs='ssh deployer@transfs.com'
+alias sshtfs='ssh deployer@feefighters.com'
 
 
